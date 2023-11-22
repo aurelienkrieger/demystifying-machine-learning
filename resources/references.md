@@ -1,0 +1,22 @@
+# References
+
+- Partisan Thesaurus by Melanie Hoff
+  - [project page](http://partisanthesaurus.com/)
+  - [article](https://www.fastcompany.com/3066801/proof-that-liberals-and-conservatives-speak-different-languages) by FastCompany
+- Semantic space of cartomancy by Allison Parrish
+  - [project page](https://github.com/aparrish/comexmadivla/blob/master/cartomancy-semantic-space.ipynb)
+  - <a href="../assets/artists/semantic_space_of_cartomancy-Allison_Parrish.png" target="_blank">screenshot</a>
+- [Through my eyes](https://aurelienkrieger.com/live/through-my-eyes/) by Aurélien Krieger
+- ELIZA
+    - [Wikipedia page](https://en.wikipedia.org/wiki/ELIZA)
+    - [demo](https://web.njit.edu/~ronkowit/eliza.html)
+- [Cached experience](https://www.alinemartinez.io/art_projects/cached-experience-3)
+- [IAgotchi](https://rocioberenguer.com/index.php?lang=fr&project=4) by Rocio Berenguer
+- [Lost in Computation](https://jonaselt.es/projects/lost-in-computation/) by Jonas Eltes
+- [VFRAME project](https://vframe.io/) by Adam Harvey
+- [DFACE](https://adam.harvey.studio/dface/) by Adam Harvey
+- [Exposing.ai](https://exposing.ai/)
+- [Más Que la Cara](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) by Zach Lieberman
+- [Face Painter](https://nahuelgerth.de/lab/face-painter) by Nahuel Gerth and Rudolfo Quintas
+- [Machine Learning for Art](https://ml4a.net/)
+- [Artificial Botany](https://www.fuseworks.it/works/artificial-botany/) by fuse*
