@@ -4,12 +4,9 @@
 
 ## Agenda
 
-* [INTRO](agenda/0-intro.md)
-* [CHAPTER 1 - Text analysis & chatbots](agenda/1-text.md)
-* [CHAPTER 2 - Classifiers](agenda/2-classifiers.md)
-* [CHAPTER 3 - Tracking](agenda/3-tracking.md)
-* [CHAPTER 4 - Generative](agenda/4-generative.md)
-* [CHAPTER 5 - Project](agenda/5-project.md)
+* [CHAPTER 1](agenda/1-session1.md)
+* [CHAPTER 2](agenda/2-session2.md)
+* [CHAPTER 3](agenda/3-session3.md)
 
 ## Lectures
 

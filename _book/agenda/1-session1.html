@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>CHAPTER 3 - Tracking · HonKit</title>
+        <title>CHAPTER 1 · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 5.1.1">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="4-generative.html" />
+    <link rel="next" href="2-session2.html" />
     
     
-    <link rel="prev" href="2-classifiers.html" />
+    <link rel="prev" href="../" />
     
 
     </head>
@@ -108,12 +108,12 @@
         
         
     
-        <li class="chapter " data-level="2.1" data-path="0-intro.html">
+        <li class="chapter active" data-level="2.1" data-path="1-session1.html">
             
-                <a href="0-intro.html">
+                <a href="1-session1.html">
             
                     
-                    INTRO
+                    CHAPTER 1
             
                 </a>
             
@@ -121,12 +121,12 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="1-text.html">
+        <li class="chapter " data-level="2.2" data-path="2-session2.html">
             
-                <a href="1-text.html">
+                <a href="2-session2.html">
             
                     
-                    CHAPTER 1 - Text analysis & chatbots
+                    CHAPTER 2
             
                 </a>
             
@@ -134,51 +134,12 @@
             
         </li>
     
-        <li class="chapter " data-level="2.3" data-path="2-classifiers.html">
+        <li class="chapter " data-level="2.3" data-path="3-session3.html">
             
-                <a href="2-classifiers.html">
-            
-                    
-                    CHAPTER 2 - Classifiers
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="2.4" data-path="3-tracking.html">
-            
-                <a href="3-tracking.html">
+                <a href="3-session3.html">
             
                     
-                    CHAPTER 3 - Tracking
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.5" data-path="4-generative.html">
-            
-                <a href="4-generative.html">
-            
-                    
-                    CHAPTER 4 - Generative
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6" data-path="5-project.html">
-            
-                <a href="5-project.html">
-            
-                    
-                    CHAPTER 5 - Project
+                    CHAPTER 3
             
                 </a>
             
@@ -263,7 +224,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >CHAPTER 3 - Tracking</a>
+        <a href=".." >CHAPTER 1</a>
     </h1>
 </div>
 
@@ -278,18 +239,59 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="chapter-3---tracking-agenda">CHAPTER 3 - Tracking <em>agenda</em></h1>
+                                <h1 id="session-1">Session 1</h1>
 <ol>
-<li>Artists references<ul>
-<li><a href="https://adam.harvey.studio/dface/" target="_blank">DFACE</a> by Adam Harvey</li>
-<li><a href="https://exposing.ai/" target="_blank">Exposing.ai</a></li>
-<li><a href="https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0" target="_blank">Más Que la Cara</a> by Zach Lieberman</li>
-<li><a href="https://nahuelgerth.de/lab/face-painter" target="_blank">Face Painter</a> by Nahuel Gerth and Rudolfo Quintas</li>
+<li><p>Introductions</p>
+<ul>
+<li>Presentation of the objectives of the course</li>
+<li>Group introduction</li>
 </ul>
 </li>
-<li>Demos<ul>
-<li>Gesture tracking</li>
-<li>Facial tracking</li>
+<li><p><a href="../lectures/1-intro-to-ml.html">Lecture</a>: Introduction to Machine Learning</p>
+<ul>
+<li>basic concepts &amp; categories of models</li>
+<li><a href="https://mediapipe-studio.webapps.google.com/home" target="_blank">MediaPipe demos</a></li>
+<li>inspirations: video + sound</li>
+</ul>
+</li>
+<li><p>First steps: Teachable Machine</p>
+<ul>
+<li>train an image classifier (classes: emotions)</li>
+<li>train an audio classifier (classes: colours)</li>
+</ul>
+</li>
+<li><p>Setup of tools</p>
+</li>
+<li><p>Prototyping - Video Classifiers</p>
+<ul>
+<li>use MobileNet + ml5 to classify images. Outputs: (a) labels</li>
+<li>introduction Transfer Learning</li>
+<li>classify emotions with custom Teachable Machine model + ml5.
+Outputs: (a) labels (b) emojis</li>
+<li>classify sounds with custom Teachable Machine model + ml5.
+Outputs: (a) labels (b) colours</li>
+</ul>
+</li>
+<li><p>Prototyping - Video Tracking</p>
+<ul>
+<li>track face with MediaPipe Face Landmark Detection or Facemesh.
+Output: (a) mesh (b) paint with face</li>
+</ul>
+</li>
+<li><p>Study on workflow</p>
+<ul>
+<li>drawing of workflow</li>
+<li>demos:<ul>
+<li>combining models: <a href="https://editor.p5js.org/tlsaeger/sketches/xL2DrkcEb" target="_blank">Cassify rock paper scissors ml5.js</a></li>
+<li>regression:<ul>
+<li><a href="https://editor.p5js.org/ml5/sketches/NeuralNetwork_musical_mouse" target="_blank">Musical mouse</a></li>
+<li><a href="https://editor.p5js.org/ml5/sketches/FeatureExtractor_Image_Regression" target="_blank">Feature extractor image regresssion</a></li>
+</ul>
+</li>
+<li>chaining tools: <a href="https://vimeo.com/175947130" target="_blank">FaceOSC &gt; Wekinator &gt; Processing</a></li>
+</ul>
+</li>
+<li>discussion: inputs/outputs (Arduino, MaxMSP / Pure Data, ...)</li>
 </ul>
 </li>
 </ol>
@@ -320,12 +322,12 @@
 
             
                 
-                <a href="2-classifiers.html" class="navigation navigation-prev " aria-label="Previous page: CHAPTER 2 - Classifiers">
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Syllabus">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="4-generative.html" class="navigation navigation-next " aria-label="Next page: CHAPTER 4 - Generative">
+                <a href="2-session2.html" class="navigation navigation-next " aria-label="Next page: CHAPTER 2">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -336,7 +338,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"CHAPTER 3 - Tracking","level":"2.4","depth":1,"next":{"title":"CHAPTER 4 - Generative","level":"2.5","depth":1,"path":"agenda/4-generative.md","ref":"agenda/4-generative.md","articles":[]},"previous":{"title":"CHAPTER 2 - Classifiers","level":"2.3","depth":1,"path":"agenda/2-classifiers.md","ref":"agenda/2-classifiers.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"agenda/3-tracking.md","mtime":"2023-11-22T15:16:39.406Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-11-23T19:16:35.630Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CHAPTER 1","level":"2.1","depth":1,"next":{"title":"CHAPTER 2","level":"2.2","depth":1,"path":"agenda/2-session2.md","ref":"agenda/2-session2.md","articles":[]},"previous":{"title":"Syllabus","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"agenda/1-session1.md","mtime":"2023-11-23T23:23:58.645Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-11-23T23:31:32.852Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -388,6 +390,10 @@
     </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>

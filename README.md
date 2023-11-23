@@ -15,3 +15,17 @@ Machine Learning (ML) and Artificial Intelligence (AI) open up a wide range of a
 - Discuss ethical dilemmas and develop critical thinking on the field
 
 ## Syllabus
+
+# Agenda
+
+## Session 1
+
+Introduction to Machine Learning concepts. Demos & prototypes of classifiers & regression models for video & sound.
+
+## Session 2
+
+Study of workflow for interactive art. Demos & prototypes for text.
+
+## Session 3
+
+Introduction to generative models. Demos & prototypes with Stable Diffusion. Group discussions.
