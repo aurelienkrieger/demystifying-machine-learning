@@ -285,8 +285,18 @@
 </ul>
 </li>
 <li>Demos<ul>
-<li>Image classification with Teachable Machine &amp; p5.js</li>
-<li>Sound classification with Teachable Machine &amp; p5.js</li>
+<li>Phone / no phone<ul>
+<li>tools: Teachable Machine, p5.js</li>
+<li>input: video, fine-tuned classification model</li>
+<li>output: detect whether the person is holding a phone</li>
+</ul>
+</li>
+<li>Rouge / vert<ul>
+<li>tools: Teachable Machine, p5.js</li>
+<li>input: sound, fine-tuned classification model</li>
+<li>output: change colour of background with voice recognition</li>
+</ul>
+</li>
 </ul>
 </li>
 </ol>
@@ -333,7 +343,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"CHAPTER 2 - Classifiers","level":"2.3","depth":1,"next":{"title":"CHAPTER 3 - Tracking","level":"2.4","depth":1,"path":"agenda/3-tracking.md","ref":"agenda/3-tracking.md","articles":[]},"previous":{"title":"CHAPTER 1 - Text analysis & chatbots","level":"2.2","depth":1,"path":"agenda/1-text.md","ref":"agenda/1-text.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"agenda/2-classifiers.md","mtime":"2023-11-22T11:36:12.304Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-11-22T15:10:34.904Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CHAPTER 2 - Classifiers","level":"2.3","depth":1,"next":{"title":"CHAPTER 3 - Tracking","level":"2.4","depth":1,"path":"agenda/3-tracking.md","ref":"agenda/3-tracking.md","articles":[]},"previous":{"title":"CHAPTER 1 - Text analysis & chatbots","level":"2.2","depth":1,"path":"agenda/1-text.md","ref":"agenda/1-text.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"agenda/2-classifiers.md","mtime":"2023-11-23T12:15:51.571Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-11-23T19:16:35.630Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -385,10 +395,6 @@
     </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>

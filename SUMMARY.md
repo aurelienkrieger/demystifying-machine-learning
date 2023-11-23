@@ -17,6 +17,8 @@
 
 ## Prompts
 
+
+
 ## Resources
 
 * [Inspirations](resources/references.md)
