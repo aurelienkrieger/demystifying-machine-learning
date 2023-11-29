@@ -4,11 +4,19 @@ Machine learning models can be broadly categorized into different categories bas
 
 1. Making Decisions (Classifiers):
   - Purpose: Teach the computer to make choices or categorize things.
-  - Example: If you show it pictures of fruits, it can learn to distinguish between apples and oranges.
+  - Examples:
+    - Object classification: If you show it pictures of fruits, it can learn to distinguish between apples and oranges.
+    - Speech Recognition: Recognize and transcribe spoken words.
+    - Music Genre Classification: Classify music into different genres based on audio features.
 
 2. Predicting Values (Regression):
-  - Purpose: Teach the computer to predict a number or value based on input.
-  - Example: If you give it data about houses, it can predict the price of a new house.
+  - Purpose: Teach the computer to predict continuous numbers based on input.
+  - Examples:
+    - If you give it data about houses, it can predict the price of a new house.
+    - Pose Estimation: Track facial landmarks for applications like augmented reality.
+    - Object Tracking: Follow the movement of specific objects in a video stream.
+    - Action Recognition: Recognize and track human activities in video sequences.
+    - Sound Pitch Detection: Determine the frequency or pitch of a sound.
 
 3. Natural Language Processing (NLP):
   - Purpose: Understand and generate human language.
@@ -18,21 +26,7 @@ Machine learning models can be broadly categorized into different categories bas
     - Machine Translation: Translate text from one language to another.
     - Chatbots: Interact with users in natural language, understanding queries and generating responses.
 
-4. Tracking and Monitoring:
-  - Purpose: Follow and identify the movement or changes in position of objects or features over time.
-  - Examples:
-    - Pose Estimation: Track facial landmarks for applications like augmented reality.
-    - Object Tracking: Follow the movement of specific objects in a video stream.
-    - Action Recognition: Recognize and track human activities in video sequences.
-
-5. Audio Signal Processing:
-  - Purpose: Analyze and process audio signals.
-  - Examples:
-    - Sound Pitch Detection: Determine the frequency or pitch of a sound.
-    - Speech Recognition: Recognize and transcribe spoken words.
-    - Music Genre Classification: Classify music into different genres based on audio features.
-
-6. Creating New Things (Generative Models):
+4. Creating New Things (Generative Models):
    - Purpose: Teach the computer to generate new content that looks like what it learned.
    - Example: It can create new images or text that resemble the ones it was trained on.
 
