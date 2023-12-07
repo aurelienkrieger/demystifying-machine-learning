@@ -2,7 +2,7 @@
 
 1. Introductions
   - Presentation of the objectives of the course
-  - Group introduction
+  - Group introduction with [Miro board](https://miro.com/app/board/uXjVNHP4YJ4=/?share_link_id=296534171667)
 
 2. [Lecture](../lectures/1-intro-to-ml.md): Introduction to Machine Learning
   - basic concepts & categories of models

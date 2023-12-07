@@ -11,7 +11,7 @@
       - [Musical mouse](https://editor.p5js.org/ml5/sketches/NeuralNetwork_musical_mouse)
       - [Feature extractor image regresssion](https://editor.p5js.org/ml5/sketches/FeatureExtractor_Image_Regression)
     - chaining tools: [FaceOSC > Wekinator > Processing](https://vimeo.com/175947130)
-    - chaingin tools: [no-kinect > TiouchDesigner](https://www.youtube.com/watch?v=DpGHWa2gOcc)
+    - chaingin tools: [no-kinect > TouchDesigner](https://www.youtube.com/watch?v=DpGHWa2gOcc)
   - discussion: inputs/outputs (Arduino, MaxMSP / Pure Data, ...)
 
 
